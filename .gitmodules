@@ -1,0 +1,6 @@
+[submodule "adapter"]
+	path = adapter
+	url = https://github.com/strangesast/mtconnect-adapter
+[submodule "agent"]
+	path = agent
+	url = https://github.com/strangesast/mtconnect-cppagent

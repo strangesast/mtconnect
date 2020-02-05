@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  adapter:
+    image: strangesast/mtconnect-adapter
+    network_mode: host
+    build:
+      context: adapter
+    environment:
+      - ADAPTER_HOST=10.0.0.123
+  agent:
+    image: strangesast/mtconnect-cppagent
+    network_mode: host
+    build:
+      context: agent
